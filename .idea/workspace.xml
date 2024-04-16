@@ -4,24 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8bf16d9-d921-4d05-b10b-3f211e5f4314" name="Changes" comment="Aula sobre criação e movimento de entidades">
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Level1Bg8.png" afterDir="false" />
+    <list default="true" id="d8bf16d9-d921-4d05-b10b-3f211e5f4314" name="Changes" comment="Fim da aula 03 - Criação de movimento e entidades.">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/img/Enemy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/img/Enemy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/img/Player1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/img/Player2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/sound/Level1.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Background.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="aula_pratica" />
+        <entry key="$PROJECT_DIR$/../.." value="aula_pratica_02" />
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="master" />
@@ -57,13 +55,14 @@
     &quot;assignee&quot;: &quot;pombimsjb&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="7a67611e-c382-4308-869e-60860e12c19b" />
-        <option name="url" value="https://github.com/pombimsjb/LPAProjetoAulaUninter.git" />
-      </UrlAndAccount>
-    </option>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pombimsjb/LPAProjetoAulaUninter.git",
+    "accountId": "7a67611e-c382-4308-869e-60860e12c19b"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -86,6 +85,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "aula__pratica",
     "last_opened_file_path": "E:/08 - FACULDADE/UNINTER/EGENHARIA DE SOFTWARE/LINGUAGEM DE PROGRAMAÇÃO APLICADA/LPAProjetoAulaUninter/GalaticShooter/GalaticShooter/asset/img",
     "node.js.detected.package.eslint": "true",
@@ -206,8 +206,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Background" />
         <item itemvalue="Python.Level" />
+        <item itemvalue="Python.Background" />
         <item itemvalue="Python.Game" />
       </list>
     </recent_temporary>
@@ -215,7 +215,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -233,7 +234,9 @@
       <workItem from="1712102532357" duration="3150000" />
       <workItem from="1712141148030" duration="634000" />
       <workItem from="1712273552020" duration="9000" />
-      <workItem from="1712788491881" duration="11321000" />
+      <workItem from="1712788491881" duration="11510000" />
+      <workItem from="1713218969742" duration="535000" />
+      <workItem from="1713219605981" duration="7272000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit do Projeto">
       <option name="closed" value="true" />
@@ -275,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712788739385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fim da aula 03 - Criação de movimento e entidades.">
+      <option name="closed" value="true" />
+      <created>1712802844306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712802844307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +297,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="aula_pratica_03" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -296,14 +319,15 @@
     <MESSAGE value="Primeiro Commit do Projeto" />
     <MESSAGE value="Fim da Aula Prática 02&#10;-Text Menu" />
     <MESSAGE value="Aula sobre criação e movimento de entidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula sobre criação e movimento de entidades" />
+    <MESSAGE value="Fim da aula 03 - Criação de movimento e entidades." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fim da aula 03 - Criação de movimento e entidades." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GalaticShooter$Level.coverage" NAME="Level Coverage Results" MODIFIED="1712800417813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/GalaticShooter$Main.coverage" NAME="Main Coverage Results" MODIFIED="1713227695592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:\08 - FACULDADE\UNINTER\EGENHARIA DE SOFTWARE\LINGUAGEM DE PROGRAMAÇÃO APLICADA\LPAProjetoAulaUninter\GalaticShooter\GalaticShooter" />
     <SUITE FILE_PATH="coverage/GalaticShooter$Background.coverage" NAME="Background Coverage Results" MODIFIED="1712802123399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/GalaticShooter$Menu.coverage" NAME="Menu Coverage Results" MODIFIED="1712102606405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/GalaticShooter$Game.coverage" NAME="Game Coverage Results" MODIFIED="1712102409229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/GalaticShooter$main.coverage" NAME="main Coverage Results" MODIFIED="1712102630034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GalaticShooter$Main.coverage" NAME="Main Coverage Results" MODIFIED="1712802420551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:\08 - FACULDADE\UNINTER\EGENHARIA DE SOFTWARE\LINGUAGEM DE PROGRAMAÇÃO APLICADA\LPAProjetoAulaUninter\GalaticShooter\GalaticShooter" />
+    <SUITE FILE_PATH="coverage/GalaticShooter$Menu.coverage" NAME="Menu Coverage Results" MODIFIED="1712102606405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/GalaticShooter$Level.coverage" NAME="Level Coverage Results" MODIFIED="1713223938757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/GalaticShooter$Game.coverage" NAME="Game Coverage Results" MODIFIED="1712102409229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>
