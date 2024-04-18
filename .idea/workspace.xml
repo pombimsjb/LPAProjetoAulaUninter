@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8bf16d9-d921-4d05-b10b-3f211e5f4314" name="Changes" comment="Fim da aula 04 - Movimentação de entidades">
-      <change afterPath="$PROJECT_DIR$/asset/img/Enemy1Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Enemy2Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Player1Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/img/Player2Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/EnemyShot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
-    </list>
+    <list default="true" id="d8bf16d9-d921-4d05-b10b-3f211e5f4314" name="Changes" comment="Fim da aula 05 - Criação de tiros" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +222,7 @@
       <workItem from="1713218969742" duration="535000" />
       <workItem from="1713219605981" duration="8221000" />
       <workItem from="1713304375431" duration="51000" />
-      <workItem from="1713388932853" duration="9809000" />
+      <workItem from="1713388932853" duration="9983000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro Commit do Projeto">
       <option name="closed" value="true" />
@@ -295,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713227833182</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fim da aula 05 - Criação de tiros">
+      <option name="closed" value="true" />
+      <created>1713401611969</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713401611969</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +305,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="aula_pratica_03" />
+                        <option value="aula_pratica" />
                       </list>
                     </value>
                   </entry>
@@ -330,7 +323,8 @@
     <MESSAGE value="Aula sobre criação e movimento de entidades" />
     <MESSAGE value="Fim da aula 03 - Criação de movimento e entidades." />
     <MESSAGE value="Fim da aula 04 - Movimentação de entidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fim da aula 04 - Movimentação de entidades" />
+    <MESSAGE value="Fim da aula 05 - Criação de tiros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fim da aula 05 - Criação de tiros" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GalaticShooter$Main.coverage" NAME="Main Coverage Results" MODIFIED="1713401419893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:\08 - FACULDADE\UNINTER\EGENHARIA DE SOFTWARE\LINGUAGEM DE PROGRAMAÇÃO APLICADA\LPAProjetoAulaUninter\GalaticShooter\GalaticShooter" />
