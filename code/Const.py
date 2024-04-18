@@ -4,7 +4,7 @@ import pygame
 COLOR_WHITE = (255, 247, 252)
 COLOR_PINK = (235, 14, 205)
 COLOR_YELLOW = (240, 198, 14)
-# E
+# E 
 ENTITY_SPEED = {'Level1Bg0': 0,
                 'Level1Bg1': 1,
                 'Level1Bg2': 2,
